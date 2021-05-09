@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: #111;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: #000;
+}
+
+.bar {
+    width: 20px;
+    height: 250px;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+#bar1 {
+    position: absolute;
+    top: 20px;
+    float: left;
+}
+
+#bar2 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+#line {
+    width: 50%;
+    border-right: 5px dashed #fff;
+    height: 100%;
+    position: absolute;
+}
